@@ -1,5 +1,4 @@
 FROM vimal13/apache-webserver-php
-ARG name=ajay
-RUN echo $name
+RUN touch abc.txt && cat abc.txt
 COPY . /var/www/html
 EXPOSE 80
