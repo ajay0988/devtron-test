@@ -2,3 +2,6 @@
 mg test 
 new line
 aded fix
+
+
+This is mine commit.
